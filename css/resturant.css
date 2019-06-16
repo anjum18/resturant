@@ -60,13 +60,14 @@ personalise css
 
 body{
     width: 1920px;
-    font-family: Poppins;
+	font-family: Poppins;
+	color: #ffffff;
 
 }
 
 
 
-/* Header Section */
+
 .intro {
 
 	width: 100%;
@@ -85,9 +86,10 @@ body{
 	/* opacity: 0.3; */
 	text-align: center;
 	padding-left: 585px;
+	padding-top: 358px;
 }
 
-p{
+h5{
 	/* Style for "Restaurant" */
 width: 481px;
 height: 45px;
@@ -158,9 +160,64 @@ margin-top: 50px;
 a:hover{
 	background-color: #ff3a2d;
 }
+p{
+	/* Style for "Injected h" */
+width: 790px;
+height: 128px;
+color: #808080;
+font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 28px;
+}
+h1{
+	/* Style for "We Provide" */
+width: 350px;
+height: 87px;
+color: #ff3a2d;
+font-family: Sacramento;
+font-size: 36px;
+font-weight: 400;
+line-height: 54px;
 
-
-
-
-
-
+}
+span{
+	/* Text style for "About Us" */
+color: #222222;
+font-family: "Lobster Two";
+font-size: 28px;
+}
+.aboutpara{
+	/* Style for "Injected h" */
+width: 790px;
+height: 128px;
+color: #808080;
+font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 28px;
+}
+.foodkind{
+	/* Style for "We Always" */
+width: 562px;
+height: 83px;
+color: #ff3a2d;
+font-family: Sacramento;
+font-size: 36px;
+font-weight: 400;
+line-height: 54px;
+}
+.imgmenu{
+width: 97px;
+height: 101px;
+}
+.menupara{
+	/* Style for "Internet t" */
+width: 290px;
+height: 41px;
+color: #808080;
+font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 26px;
+}
