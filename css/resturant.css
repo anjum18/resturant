@@ -1,223 +1,302 @@
-
-
 /*
 reset css
 */
-
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /*
 personalise css
 */
 
-body{
-    width: 1920px;
-	font-family: Poppins;
-	color: #ffffff;
-
+body {
+  width: 1920px;
+  font-family: Poppins;
+  color: #ffffff;
 }
-
-
-
 
 .intro {
+  width: 100%;
+  padding-top: 358px;
+  height: 800px;
+  background: url(../images/cover.jpg) top center no-repeat;
 
-	width: 100%;
-	padding-top: 358px;
-	height: 800px;
-	background: url(../images/cover.jpg) top center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  /* Style for "Rectangle" */
 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
-	/* Style for "Rectangle" */
-
-	height: 930px;
-	/* background-color: #000000; */
-	/* opacity: 0.3; */
-	text-align: center;
-	padding-left: 585px;
-	padding-top: 358px;
+  height: 930px;
+  /* background-color: #000000; */
+  /* opacity: 0.3; */
+  text-align: center;
+  padding-left: 585px;
+  padding-top: 358px;
 }
 
-h5{
-	/* Style for "Restaurant" */
-width: 481px;
-height: 45px;
-color: #00c5d2;
-font-family: 'Sacramento', cursive;
-font-size: 36px;
-font-weight: 400;
-line-height: 15px;
-margin: 0 auto;
-
-
+h5 {
+  /* Style for "Restaurant" */
+  width: 481px;
+  height: 45px;
+  color: #00c5d2;
+  font-family: "Sacramento", cursive;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 15px;
+  margin: 0 auto;
 }
-h1{
-/* Style for "We Provide" */
-width: 742px;
-height: 47px;
-color: #ffffff;
-font-family: 'Lobster Two', cursive;
-font-size: 48px;
-font-weight: 700;
-line-height: 15px;
+h1 {
+  /* Style for "We Provide" */
+  width: 742px;
+  height: 47px;
+  color: #ffffff;
+  font-family: "Lobster Two", cursive;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 15px;
 }
-.subparagraph{
-	/* Style for "when an un" */
-width: 799px;
-height: 72px;
-color: #ffffff;
-font-family: 'Poppins', sans-serif;
-font-size: 16px;
-font-weight: 500;
-line-height: 28px;
+.subparagraph {
+  /* Style for "when an un" */
+  width: 799px;
+  height: 72px;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
 }
 
-#About{
-/* Style for "Rounded Re" */
-width: 150px;
-height: 50px;
-border-radius: 6px;
-border: 2px solid #ff3a2d;
-text-transform: uppercase;
-color: #ffffff;
-font-size: 16px;
-font-weight: 400;
-line-height:30px;
-margin-top: 50px;
-
-
+#About {
+  /* Style for "Rounded Re" */
+  width: 150px;
+  height: 50px;
+  border-radius: 6px;
+  border: 2px solid #ff3a2d;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 50px;
 }
-#seemenu{
-	/* Style for "See Menu" */
-	width: 150px;
-	height: 50px;
-	border-radius: 6px;
-	border: 2px solid #ff3a2d;
-	text-transform: uppercase;
-	color: #ffffff;
-	font-size: 16px;
-	font-weight: 400;
-	line-height:30px;
-	margin-top: 50px;
-	margin-left: 30px;
-
-
-	
-
+#seemenu {
+  /* Style for "See Menu" */
+  width: 150px;
+  height: 50px;
+  border-radius: 6px;
+  border: 2px solid #ff3a2d;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 50px;
+  margin-left: 30px;
 }
 
-a:hover{
-	background-color: #ff3a2d;
+a:hover {
+  background-color: #ff3a2d;
 }
-p{
-	/* Style for "Injected h" */
-width: 790px;
-height: 128px;
-color: #808080;
-font-family: Poppins;
-font-size: 14px;
-font-weight: 400;
-line-height: 28px;
+p {
+  /* Style for "Injected h" */
+  width: 790px;
+  height: 128px;
+  color: #808080;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
 }
-h1{
-	/* Style for "We Provide" */
-width: 350px;
-height: 87px;
-color: #ff3a2d;
-font-family: Sacramento;
-font-size: 36px;
-font-weight: 400;
-line-height: 54px;
+h1 {
+  /* Style for "We Provide" */
+  width: 350px;
+  height: 87px;
+  color: #ff3a2d;
+  font-family: Sacramento;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 54px;
+}
+span {
+  /* Text style for "About Us" */
+  color: #222222;
+  font-family: "Lobster Two";
+  font-size: 28px;
+}
+.aboutpara {
+  /* Style for "Injected h" */
+  width: 790px;
+  height: 128px;
+  color: #808080;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.foodkind {
+  /* Style for "We Always" */
+  width: 562px;
+  height: 83px;
+  color: #ff3a2d;
+  font-family: Sacramento;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 54px;
+}
+.imgmenu {
+  width: 97px;
+  height: 101px;
+}
+.menupara {
+  width: 290px;
+  height: 41px;
+  color: #808080;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-top: 20px;
+ 
+}
+h4 {
+  width: 328px;
+  height: 19px;
+  color: #222222;
+  font-family: "Poppins - Semi Bold";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 49px;
 
 }
-span{
-	/* Text style for "About Us" */
-color: #222222;
-font-family: "Lobster Two";
-font-size: 28px;
-}
-.aboutpara{
-	/* Style for "Injected h" */
-width: 790px;
-height: 128px;
-color: #808080;
-font-family: Poppins;
-font-size: 14px;
-font-weight: 400;
-line-height: 28px;
-}
-.foodkind{
-	/* Style for "We Always" */
-width: 562px;
-height: 83px;
-color: #ff3a2d;
-font-family: Sacramento;
-font-size: 36px;
-font-weight: 400;
-line-height: 54px;
-}
-.imgmenu{
-width: 97px;
-height: 101px;
-}
-.menupara{
-	/* Style for "Internet t" */
-width: 290px;
-height: 41px;
-color: #808080;
-font-family: Poppins;
-font-size: 14px;
-font-weight: 400;
-line-height: 26px;
+.align-price{
+	/* padding-top: 20px; */
+
 }
