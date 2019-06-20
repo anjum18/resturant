@@ -284,7 +284,6 @@ span {
   font-weight: 400;
   line-height: 26px;
   padding-top: 20px;
- 
 }
 h4 {
   width: 328px;
@@ -294,9 +293,47 @@ h4 {
   font-size: 18px;
   font-weight: 400;
   line-height: 49px;
+}
+.align-price {
+  /* padding-top: 20px; */
+}
+#Contact {
+}
+.contact-map {
+  background-image: url(../img/Layer_33.png);
+
+  height: 800px;
+}
+.form-control {
+  width: 500px;
+  height: 85px;
+  background-color: #ffffff;
+}
+.newletter {
+  background-image: url(../img/Rectangle_19.png);
+}
+.lnr {
+  /* Style for "Rectangle" */
+  width: 90px;
+  height: 85px;
+  background-color: #ffffff;
+  background-image: linear-gradient(to left, #00fff0 0%, #40b1e5 100%);
+}
+.newsp {
+  width: 574px;
+  height: 72px;
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+}
+#newletter {
+  width: 500px;
+  height: 85px;
+  background-color: #ffffff;
 
 }
-.align-price{
-	/* padding-top: 20px; */
-
+.navbar-form{
+	padding-left: 700px;
 }

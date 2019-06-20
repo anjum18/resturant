@@ -3296,8 +3296,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 .footer-widget-wrap {
-  background: #f42f2c;
-  color: #fff;
+  background: ##ffffff;
+  color: #222222f;
 }
 @media (max-width: 991px) {
   .single-footer-widget {
